@@ -1,0 +1,51 @@
+body {
+  background-color: #000000;
+  color: #99ff99;
+  font-size: 2em;
+}
+
+#registrationLoginModalHeader {
+  background-color: #4559ed;
+  color: #ccffcc;
+}
+
+#registrationLoginModalBody {
+  background-color: #4559ed;
+  color: #ccffcc;
+}
+.linkButton {
+  color: #70db70;
+  font-size: 1.1em;
+}
+.linkButton:hover {
+  color: #b3ffb3;
+}
+
+.primaryButton {
+  background-color: #5cd65c;
+  color: #000000;
+  font-size: 1.1em;
+}
+.primaryButton:hover {
+  background-color: #29a329;
+  color: #ccffcc;
+}
+
+#userNameInput,
+#privateIDInput {
+  font-size: 1.1em;
+  border: 3px solid;
+}
+
+#input::placeholder,
+#privateIDInput::placeholder {
+  font-size: 1.1em;
+}
+
+.formFeedback {
+  color: #ff9999;
+  font-weight: bold;
+  font-size: 1.2em;
+  -webkit-text-stroke: 2px #e60000;
+  stroke: 2px #e60000;
+}
